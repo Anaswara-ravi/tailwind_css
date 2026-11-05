@@ -1,0 +1,190 @@
+body {
+    background-color: aquamarine;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    margin: 0;
+}
+
+.main {
+    width: 70%;
+    height: 70vh;
+    background-color: white;
+    display: flex;
+
+   
+}
+
+.sidebar {
+    width: 250px;
+    height: 100%;
+    background-image: url("/images/bg-sidebar-desktop.svg");
+    background-size: cover;
+   
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    color: white;
+   
+}
+li{ margin: 10px;
+    display: flex;
+    gap: 7px;
+}
+p{
+    margin: 10px;
+     font-weight: bold;
+    
+}
+.circle{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border:1px solid white;
+    display: flex;justify-content: center;
+    
+}
+.dark{
+    background-color:white;
+    color: black;
+}
+.step1{
+    margin-bottom:40px;
+}
+.content{
+    margin: 50px;
+    align-items: center;
+    
+
+}
+h1{
+    font-weight: bold;
+}
+h3{
+    color: gray;
+}.content{
+    display: block;
+    gap: 800px;
+}.card1{
+  
+    width: 120px;
+    height: 150px;
+    border-radius: 10px;
+    border: 2px solid gray;
+}
+.card2{
+    width: 120px;
+    height: 150px;
+    border-radius: 10px;
+    border: 2px solid gray;
+}
+.card3{
+    width: 120px;
+    height: 150px;
+    border-radius: 10px;
+    border: 2px solid gray;
+}
+.center{
+    display: flex;
+    gap: 70px;
+
+}
+.card1 img{
+    margin: 15px;
+    width: 30px;
+
+}
+.card2 img{
+    margin: 15px;
+    width: 30px;
+
+}
+.card3 img{
+    margin: 15px;
+    width: 30px;
+
+}
+p{
+    margin-bottom: 10px;
+}
+.button{
+    width: 400px;
+    height: 30px;
+    background-color:whitesmoke;
+    box-shadow: 70px;
+}.button{
+    display: flex;
+
+}
+
+
+.p1{
+    align-items: center;
+    align-content: center;
+    
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+}
+.btn{
+    background-color: darkblue;
+    color: white;
+}
+.left{
+    text-decoration: none;
+}
+.foot{
+       margin-bottom: 30px;
+
+
+}
+.button{
+      margin-bottom: 60px;
+      display: flex;
+      justify-content:center;
+      gap: 10px;
+
+}
+.content{
+        margin-bottom: 30px;
+
+}
+.center{
+        margin-bottom: 30px;
+
+}
+.switch{
+    position: relative;
+    width: 30px;
+    height: 20px;
+}
+.switch input{
+    display: none;
+}
+.slider{
+    position: absolute;
+    inset: 0;
+    background-color: blue;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+.slider::before{
+    content:"" ;
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: 4px;
+    right: 4px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    transition: 0.25;
+
+}
+.switch:inpuut:checked+.slider::before{
+    transform: translate(18px);
+}
